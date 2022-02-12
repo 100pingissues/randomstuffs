@@ -6,3 +6,6 @@ Worst and horrible way to solve this problem with script written in python inste
 
 # Answer for natas15.py
 Works but slow. Similar to OSWE blind sql injection, need to implement binary search from the comment to speed up the script
+
+# Answer for natas17.py
+Blind SQL injection (time-based) method must be used to solve this level. 
